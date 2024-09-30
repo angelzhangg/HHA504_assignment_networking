@@ -26,10 +26,9 @@ The objective of this assignment is to explore the networking features in Azure 
 ![pic4](<Screenshot 2024-09-22 at 5.46.14 PM.png>)
 - **GCP:**
   - Reserve a static external IP address for a Compute Engine instance within your VPC.
-![pic1](<Screenshot 2024-09-29 at 9.09.52 PM.png>)
-![pic2](<Screenshot 2024-09-29 at 9.10.01 PM.png>)
-![pic3](<Screenshot 2024-09-29 at 9.05.27 PM.png>)
-
+![pic1](<Screenshot 2024-09-29 at 9.09.52 PM-1.png>)
+![pic2](Screenshots.png)
+![pic3](<Screenshot 2024-09-29 at 9.05.27 PM-1.png>)
 ## 3. Map IP to a Domain
 Steps I took to map the IP address to a domain in both platforms: 
  **Azure:**
