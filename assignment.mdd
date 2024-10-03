@@ -56,18 +56,14 @@ Go to **VM instances**
 
 
 
-
 ## 3. Map IP to a Domain Acquired via GitHub Student Pack
 - Use your GitHub Student Developer Pack to acquire a domain through Namecheap (or another supported registrar).
 - Set up an **A record** for your main domain (e.g., `yourdomain.com`) and a **subdomain** (e.g., `app.yourdomain.com`).
 
 ![namecheap](namecheap-1.png)
-
 ## 4. Deploy Flask Application
 - Deploy the provided Flask application located at [HHA 504 Flask Networking](https://github.com/hantswilliams/hha-504-flask-networking) to your virtual machine on Azure or GCP.
-- Ensure that the Flask application is running on a specific port (e.g., port 5007)
-
-![flask](<flask application .png>)
+- Ensure that the Flask application is running on a specific port (e.g., port 5007).
 
 ## 5. Configure Firewall Settings
 - Make sure that the port on which your Flask application is running is accessible to the general public.
@@ -76,5 +72,3 @@ Go to **VM instances**
 
 ## 6. Access Your Application via Domain
 - Visit your deployed Flask application using the custom domain or subdomain you mapped, including the port number in the URL (e.g., `http://app.yourdomain.com:5000`).
-
-![domain](<Screenshot 2024-10-02 at 9.01.14 PM.png>)
