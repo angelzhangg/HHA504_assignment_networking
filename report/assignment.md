@@ -18,6 +18,7 @@ Configure the IP address range and subnets similarly to your Azure setup.
 ![pic2](<Screenshot 2024-09-29 at 8.42.41 PM.png>)
 ![pic3](<Screenshot 2024-09-29 at 8.42.49 PM.png>)
 ![pic4](<Screenshot 2024-09-29 at 8.44.39 PM.png>)
+![pic5](<Screenshot 2024-10-02 at 6.36.25 PM.png>)
 
 ## 2. Assign a Dedicated IP
 **Azure:**
@@ -27,6 +28,20 @@ Configure the IP address range and subnets similarly to your Azure setup.
 ![pic2](<Screenshot 2024-09-22 at 5.44.09 PM.png>)
 ![pic3](<Screenshot 2024-09-22 at 5.45.03 PM.png>)
 ![pic4](<Screenshot 2024-09-22 at 5.46.14 PM.png>)
+
+Next, we will assign the static IP to a VM instance <br/>
+Go to **VM instances**
+
+![alt text](<Screenshot 2024-10-02 at 6.34.28 PM.png>)
+![alt text](<Screenshot 2024-10-02 at 6.34.43 PM.png>)
+![alt text](<Screenshot 2024-10-02 at 6.35.46 PM.png>)
+
+> Assign the virtual network to the one you created <br/>
+Assign Public IP to the one you created
+
+![alt text](<Screenshot 2024-10-02 at 6.38.05 PM.png>)
+![alt text](<Screenshot 2024-10-02 at 6.41.45 PM.png>)
+
 **GCP:**
   - Reserve a static external IP address for a Compute Engine instance within your VPC.
 
